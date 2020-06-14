@@ -1,4 +1,4 @@
-# 超强vim配置文件
+# 超强vim配置文件(基于ma6174的vim继续维护)
 
 [![Build Status](https://travis-ci.org/ma6174/vim.png?branch=master)](https://travis-ci.org/ma6174/vim)
 
