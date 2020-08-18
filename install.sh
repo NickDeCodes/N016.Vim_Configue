@@ -53,7 +53,7 @@ mv -f ~/.vimrc ~/.vimrc_old
 mv -f ~/.vim/.vimrc ~/
 
 # 克隆vundle(vim插件管理)并重新命名
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # 开始安装
 echo "🍷Nick.Vim install bundle" > Nick.Vim
