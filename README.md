@@ -1,4 +1,4 @@
-# 超强vim配置文件(基于ma6174的vim继续维护)
+# vim配置文件
 
 ### 简易安装方法：
 
@@ -8,7 +8,7 @@
 
 ### 或者自己手动安装：
 
-直接查看install.sh即可
+直接查看[install.sh](install.sh)即可
 
 ### 了解更多vim使用的小技巧：
 
@@ -17,3 +17,4 @@
 ### 查看更新日志：
 
 [`update_log.md`](update_log.md)
+
