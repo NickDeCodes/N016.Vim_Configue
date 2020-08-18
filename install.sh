@@ -16,7 +16,7 @@ echo "🍷Nick.Vim install ..."
 
 # Ubuntu系统
 if which apt-get >/dev/null; then
-	sudo apt-get install -y g++ vim vim-gnome ctags xclip astyle python-setuptools python-dev git
+	sudo apt-get install -y g++ vim exuberant-ctags xclip astyle python-setuptools python-dev-is-python2 git
 # Centos系统
 elif which yum >/dev/null; then
 	sudo yum install -y gcc gcc-c++ vim ctags xclip astyle python-setuptools python-devel git
@@ -38,7 +38,7 @@ sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 mv -f ~/vim ~/vim_old
 
 # 转到家目录下，并克隆Vim配置库
-cd ~/ && git@github.com:NickDeCodes/N016.Vim_Configue.git
+cd ~/ && git clone https://github.com/NickDeCodes/N016.Vim_Configue.git
 
 # 如果已经有.vim配置将重置为.vim_old
 mv -f ~/.vim ~/.vim_old
