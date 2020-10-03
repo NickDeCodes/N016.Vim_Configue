@@ -38,13 +38,13 @@ sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 mv -f ~/vim ~/vim_old
 
 # 转到家目录下，并克隆Vim配置库
-cd ~/ && git clone https://github.com/NickDeCodes/N016.Vim_Configure.git
+cd ~/ && git clone https://github.com/NickDeCodes/vim.git
 
 # 如果已经有.vim配置将重置为.vim_old
 mv -f ~/.vim ~/.vim_old
 
 # 将新的vim配置置为隐藏文件夹
-mv -f ~/N016.Vim_Configure ~/.vim
+mv -f ~/vim ~/.vim
 
 # 如果已经有.vimrc配置将重置为.vimrc_old
 mv -f ~/.vimrc ~/.vimrc_old
