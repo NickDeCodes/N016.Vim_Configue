@@ -832,3 +832,4 @@ def blog_wise_open_view():
         vim.command(":new")
     vim.command('setl syntax=blogsyntax')
     vim.command('setl completefunc=Completable')
+EOF
