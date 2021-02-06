@@ -13,7 +13,7 @@ let colors_name = "xcodelight"
 " 初始化
 hi Normal         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#f0f0f0 guibg=NONE gui=NONE " 普通文本 
 hi Boolean        ctermfg=DarkMagenta ctermbg=NONE cterm=NONE guifg=DarkMagenta guibg=NONE gui=NONE " bool值高亮
-hi Cursor         ctermfg=Cyan ctermbg=Cyan cterm=inverse guifg=NONE guibg=NONE gui=inverse " 光标所在的字符
+hi Cursor         ctermfg=NONE ctermbg=NONE cterm=inverse guifg=Cyan guibg=Cyan gui=inverse " 光标所在的字符
 hi CursorLine     ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline " 光标当前行
 hi CursorLineNr   ctermfg=Cyan ctermbg=NONE cterm=NONE guifg=Cyan guibg=NONE gui=NONE " 光标当前行
 hi CursorColumn   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE " 光标当前列
@@ -47,7 +47,7 @@ hi Label          ctermfg=DarkMagenta ctermbg=NONE cterm=bold guifg=DarkMagenta 
 hi Menu           ctermfg=Cyan ctermbg=Grey cterm=NONE guifg=Cyan guibg=Grey gui=NONE " 当前菜单的字体、背景色和前景色。也包括工具栏。可用的高亮参数: font、guibg、guifg。
 hi Macro          ctermfg=94 ctermbg=NONE cterm=NONE guifg=#875f00 guibg=NONE gui=NONE " 宏
 hi MatchParen     ctermfg=Yellow ctermbg=Black cterm=inverse guifg=Yellow guibg=Black gui=inverse " 括号匹配
-hi ModeMsg 		    ctermfg=Black ctermbg=NONE cterm=NONE guifg=Black guibg=NONE gui=NONE " 模式高亮
+hi ModeMsg 		    ctermfg=Cyan ctermbg=NONE cterm=NONE guifg=Cyan guibg=NONE gui=NONE " 模式高亮
 hi MoreMsg 		    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE " 输入栏提示
 hi NonText        ctermfg=DarkGrey ctermbg=NONE cterm=NONE guifg=DarkGrey guibg=NONE gui=NONE " 非文本区（控制字符和一些特殊字符和编辑器空白区等）
 hi Number         ctermfg=Blue ctermbg=NONE cterm=NONE guifg=Blue guibg=NONE gui=NONE " 数字
@@ -58,7 +58,7 @@ hi PmenuSbar      ctermfg=Red ctermbg=Green cterm=inverse guifg=Red guibg=Green 
 hi PmenuThumb     ctermfg=Cyan ctermbg=Green cterm=inverse guifg=Cyan guibg=Green gui=inverse " 弹出菜单: 滚动条的拇指 (thumb)
 hi PreProc        ctermfg=94 ctermbg=NONE cterm=NONE guifg=#875f00 guibg=NONE gui=NONE " 通用预处理命令
 hi PreCondit      ctermfg=94 ctermbg=NONE cterm=NONE guifg=#875f00 guibg=NONE gui=NONE " 预处理命令makefile ifneq
-hi Question 		  ctermfg=Black ctermbg=NONE cterm=NONE guifg=Black guibg=NONE gui=bold " |hit-enter| 提示和 yes/no 问补全时下方的提示信息1/5
+hi Question 		  ctermfg=Cyan ctermbg=NONE cterm=NONE guifg=Cyan guibg=NONE gui=bold " |hit-enter| 提示和 yes/no 问补全时下方的提示信息1/5
 hi Repeat         ctermfg=DarkMagenta ctermbg=NONE cterm=bold guifg=DarkMagenta guibg=NONE gui=bold " for、do、while 等
 hi StatusLine     ctermfg=231 ctermbg=59 cterm=bold guifg=#ffffff guibg=#5f5f5f gui=bold " 当前窗口的状态行
 hi StatusLineNC   ctermfg=231 ctermbg=59 cterm=bold guifg=#ffffff guibg=#5f5f5f gui=bold " 非当前窗口的状态行
